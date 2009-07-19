@@ -1,0 +1,2354 @@
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2009-07-17 14:21:15) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 60ms (View: 6, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2009-07-18 12:31:00) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 81ms (View: 9, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 13:19:30) [GET]
+Rendering colors/new
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 13:46:00) [GET]
+Rendering colors/new
+Completed in 107ms (View: 106, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 13:46:19) [GET]
+Rendering colors/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 13:46:27) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "colors"=>{"username"=>"eh"}}
+
+ActionView::TemplateError (can't convert nil into String) on line #3 of app/views/colors/_results.html.erb:
+1: <h3>Those are some nice colors!</h3>
+2: <ul style="display:inline-block; margin-bottom: 2em;">
+3:   <li style="display:inline-block; margin: 0 1em 1em 0;"><%= link_to image_tag(@avatar), "http://www.twitter.com/#{@screen_name}", :alt => "#{@user_name} on Twitter", :title => "#{@user_name} on Twitter" %></li>
+4:   <li style="display:inline-block">
+5:     <%= @user_name %> (<%= link_to @screen_name, "http://www.twitter.com/#{@screen_name}", :alt => "http://www.twitter.com/#{@screen_name}", :title => "http://www.twitter.com/#{@screen_name}" %>)<br/>
+6:     Recent tweet: <%= @last_tweet %>    
+
+    app/views/colors/_results.html.erb:3
+    app/controllers/colors_controller.rb:19:in `__instance_exec0'
+    app/controllers/colors_controller.rb:18:in `create'
+
+Rendered rescues/_trace (106.5ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 13:49:20) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "colors"=>{"username"=>"eh"}}
+
+ActionView::TemplateError (can't convert nil into String) on line #3 of app/views/colors/_results.html.erb:
+1: <h3>Those are some nice colors!</h3>
+2: <ul style="display:inline-block; margin-bottom: 2em;">
+3:   <li style="display:inline-block; margin: 0 1em 1em 0;"><%= link_to image_tag(@avatar), "http://www.twitter.com/#{@screen_name}", :alt => "#{@user_name} on Twitter", :title => "#{@user_name} on Twitter" %></li>
+4:   <li style="display:inline-block">
+5:     <%= @user_name %> (<%= link_to @screen_name, "http://www.twitter.com/#{@screen_name}", :alt => "http://www.twitter.com/#{@screen_name}", :title => "http://www.twitter.com/#{@screen_name}" %>)<br/>
+6:     Recent tweet: <%= @last_tweet %>    
+
+    app/views/colors/_results.html.erb:3
+    app/controllers/colors_controller.rb:20:in `__instance_exec0'
+    app/controllers/colors_controller.rb:19:in `create'
+
+Rendered rescues/_trace (60.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 13:49:22) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "colors"=>{"username"=>"eh"}}
+
+ActionView::TemplateError (can't convert nil into String) on line #3 of app/views/colors/_results.html.erb:
+1: <h3>Those are some nice colors!</h3>
+2: <ul style="display:inline-block; margin-bottom: 2em;">
+3:   <li style="display:inline-block; margin: 0 1em 1em 0;"><%= link_to image_tag(@avatar), "http://www.twitter.com/#{@screen_name}", :alt => "#{@user_name} on Twitter", :title => "#{@user_name} on Twitter" %></li>
+4:   <li style="display:inline-block">
+5:     <%= @user_name %> (<%= link_to @screen_name, "http://www.twitter.com/#{@screen_name}", :alt => "http://www.twitter.com/#{@screen_name}", :title => "http://www.twitter.com/#{@screen_name}" %>)<br/>
+6:     Recent tweet: <%= @last_tweet %>    
+
+    app/views/colors/_results.html.erb:3
+    app/controllers/colors_controller.rb:20:in `__instance_exec0'
+    app/controllers/colors_controller.rb:19:in `create'
+
+Rendered rescues/_trace (55.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 13:52:13) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "colors"=>{"username"=>"eh"}}
+Rendered colors/_results (2.0ms)
+Completed in 340ms (View: 6, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 13:52:32) [GET]
+Rendering colors/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 13:54:02) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "colors"=>{"username"=>"eH"}}
+Rendered colors/_results (0.4ms)
+Completed in 314ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 13:54:41) [GET]
+Rendering colors/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 13:55:40) [GET]
+Rendering colors/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 13:55:53) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "colors"=>{"username"=>"eH"}}
+Rendered colors/_results (0.4ms)
+Completed in 967ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 13:56:38) [GET]
+Rendering colors/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 14:03:42) [GET]
+Rendering colors/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 14:03:48) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "colors"=>{"username"=>"eh"}}
+Rendered colors/_results (2.2ms)
+Completed in 323ms (View: 6, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 14:04:05) [GET]
+Rendering colors/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 14:05:21) [GET]
+Rendering colors/new
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 14:06:16) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "colors"=>{"username"=>"eh"}}
+Rendered colors/_results (2.0ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.4ms)
+Rendered colors/_results (0.4ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.4ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Rendered colors/_results (0.3ms)
+Completed in 445ms (View: 24, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 14:06:30) [GET]
+Rendering colors/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 14:11:05) [GET]
+Rendering colors/new
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 14:11:08) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "colors"=>{"username"=>"eh"}}
+Rendered colors/_results (2.3ms)
+Completed in 342ms (View: 6, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 14:12:03) [GET]
+Rendering colors/new
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:12:06) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "colors"=>{"username"=>"eh"}}
+Rendered colors/_results (0.5ms)
+Completed in 298ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 14:12:17) [GET]
+Rendering colors/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 14:13:07) [GET]
+Rendering colors/new
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #3 of app/views/colors/_results.html.erb:
+1: <h3>Those are some nice colors!</h3>
+2: <ul style="display:inline-block; margin-bottom: 2em;">
+3:   <li style="display:inline-block; margin: 0 1em 1em 0;"><%= link_to image_tag(@user['profile_image_url']), "http://www.twitter.com/#{@user['screen_name']}", :alt => "#{@user['name']} on Twitter", :title => "#{@user['name']} on Twitter" %></li>
+4:   <li style="display:inline-block">
+5:     <%= @user['name'] %> (<%= link_to @user['screen_name'], "http://www.twitter.com/#{@user['screen_name']}", :alt => "http://www.twitter.com/#{@user['screen_name']}", :title => "http://www.twitter.com/#{@user['screen_name']}" %>)<br/>
+6:     Recent tweet: <%= @user['text'] %>    
+
+    app/views/colors/_results.html.erb:3
+    app/views/colors/new.html.erb:8
+
+Rendered rescues/_trace (54.5ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#new (for 127.0.0.1 at 2009-07-18 14:14:01) [GET]
+Rendering colors/new
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:14:05) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "colors"=>{"username"=>"eh"}}
+Rendered colors/_results (0.4ms)
+Completed in 375ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:15:15) [GET]
+Rendering colors/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:15:19) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "colors"=>{"username"=>"eh"}}
+Rendered colors/_results (0.4ms)
+Completed in 512ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:17:59) [GET]
+Rendering colors/index
+
+ActionView::TemplateError (undefined method `remote_form_tag' for #<ActionView::Base:0x23bbf58>) on line #1 of app/views/colors/index.html.erb:
+1: <% remote_form_tag :url => {:controller => "colors", :action => "results"} do -%>
+2:   <h5><%= label_tag :username, "Enter a Twitter username minus the @ symbol (e.g. 'eH'):" %></h5>
+3:   <p><%= text_field_tag :username %></p>
+4:   <p><%= submit_tag "Color Me!" %></p>
+
+    app/views/colors/index.html.erb:1
+
+Rendered rescues/_trace (99.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:18:18) [GET]
+Rendering colors/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:18:21) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/colors_controller.rb:5:in `results'
+
+Rendered rescues/_trace (35.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:18:52) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:18:55) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh"}
+Rendered colors/_results (0.4ms)
+Completed in 352ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:24:20) [GET]
+Rendering colors/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:24:23) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh"}
+Rendered colors/_results (0.4ms)
+Completed in 287ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:31:29) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 65ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:31:43) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+
+Crack::ParseError (Invalid JSON string):
+  crack (0.1.3) lib/crack/json.rb:14:in `parse'
+  httparty (0.4.3) lib/httparty/request.rb:112:in `parse_response'
+  httparty (0.4.3) lib/httparty/request.rb:101:in `handle_response'
+  httparty (0.4.3) lib/httparty/request.rb:40:in `perform'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  httparty (0.4.3) lib/httparty.rb:185:in `get'
+  twitter (0.6.12) lib/twitter.rb:38:in `user'
+  app/controllers/colors_controller.rb:5:in `results'
+
+Rendered rescues/_trace (41.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:31:47) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 327ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:33:57) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:34:04) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"danbenjamin", "_"=>""}
+Rendered colors/_results (2.1ms)
+Completed in 815ms (View: 6, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:34:21) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:34:24) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (2.1ms)
+Completed in 234ms (View: 6, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:40:58) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:41:01) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (2.5ms)
+Completed in 266ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:43:40) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:43:43) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eH", "_"=>""}
+Rendered colors/_results (2.6ms)
+Completed in 281ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:44:01) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:44:04) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eH", "_"=>""}
+Rendered colors/_results (2.6ms)
+Completed in 270ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:45:45) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:45:48) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (2.7ms)
+Completed in 281ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:46:33) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:46:37) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"newmonarch", "_"=>""}
+Rendered colors/_results (2.8ms)
+Completed in 275ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:46:51) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.4ms)
+Completed in 265ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:47:18) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:47:20) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (2.6ms)
+Completed in 288ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:48:12) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (2.7ms)
+Completed in 293ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:48:44) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"danbenjamin", "_"=>""}
+Rendered colors/_results (2.6ms)
+Completed in 284ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:48:50) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"gruber", "_"=>""}
+Rendered colors/_results (0.4ms)
+Completed in 237ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:48:59) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"sco", "_"=>""}
+Rendered colors/_results (0.4ms)
+Completed in 291ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:49:14) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.4ms)
+Completed in 287ms (View: 3, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:50:26) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"hipaaviolation", "_"=>""}
+
+ActionView::TemplateError (undefined method `capitalize' for #<ActionView::Base:0x236e410>) on line #11 of app/views/colors/_results.html.erb:
+8: </ul>
+9: 
+10: <ul style="display:inline-block;">
+11:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Background:<br/>#<%= capitalize @user['profile_background_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_background_color'] %>;"></p></li>
+12:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Sidebar Fill:<br/>#<%= capitalize @user['profile_sidebar_fill_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_sidebar_fill_color'] %>;"></p></li>
+13:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Sidebar Border:<br/>#<%= capitalize @user['profile_sidebar_border_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_sidebar_border_color'] %>;"></p></li>
+14:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Links:<br/>#<%= capitalize @user['profile_link_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_link_color'] %>;"></p></li>
+
+    app/views/colors/_results.html.erb:11
+    app/controllers/colors_controller.rb:8:in `__instance_exec0'
+    app/controllers/colors_controller.rb:7:in `results'
+
+Rendered rescues/_trace (53.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:50:29) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"hipaaviolation", "_"=>""}
+
+ActionView::TemplateError (undefined method `capitalize' for #<ActionView::Base:0x24ac994>) on line #11 of app/views/colors/_results.html.erb:
+8: </ul>
+9: 
+10: <ul style="display:inline-block;">
+11:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Background:<br/>#<%= capitalize @user['profile_background_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_background_color'] %>;"></p></li>
+12:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Sidebar Fill:<br/>#<%= capitalize @user['profile_sidebar_fill_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_sidebar_fill_color'] %>;"></p></li>
+13:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Sidebar Border:<br/>#<%= capitalize @user['profile_sidebar_border_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_sidebar_border_color'] %>;"></p></li>
+14:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Links:<br/>#<%= capitalize @user['profile_link_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_link_color'] %>;"></p></li>
+
+    app/views/colors/_results.html.erb:11
+    app/controllers/colors_controller.rb:8:in `__instance_exec0'
+    app/controllers/colors_controller.rb:7:in `results'
+
+Rendered rescues/_trace (112.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:50:34) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"hippaviolation", "_"=>""}
+
+ActionView::TemplateError (can't convert nil into String) on line #3 of app/views/colors/_results.html.erb:
+1: <h3>Those are some nice colors!</h3>
+2: <ul style="display:inline-block; margin-bottom: 1em;">
+3:   <li style="display:inline-block; margin: 0 1em 1em 0;"><%= link_to image_tag(@user['profile_image_url']), "http://www.twitter.com/#{@user['screen_name']}", :alt => "#{@user['name']} on Twitter", :title => "#{@user['name']} on Twitter" %></li>
+4:   <li style="display:inline-block">
+5:     <%= @user['name'] %> (<%= link_to @user['screen_name'], "http://www.twitter.com/#{@user['screen_name']}", :alt => "http://www.twitter.com/#{@user['screen_name']}", :title => "http://www.twitter.com/#{@user['screen_name']}" %>)<br/>
+6:     Recent tweet: <%= @user['text'] %>    
+
+    app/views/colors/_results.html.erb:3
+    app/controllers/colors_controller.rb:8:in `__instance_exec0'
+    app/controllers/colors_controller.rb:7:in `results'
+
+Rendered rescues/_trace (55.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:50:37) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+
+ActionView::TemplateError (undefined method `capitalize' for #<ActionView::Base:0x2438c38>) on line #11 of app/views/colors/_results.html.erb:
+8: </ul>
+9: 
+10: <ul style="display:inline-block;">
+11:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Background:<br/>#<%= capitalize @user['profile_background_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_background_color'] %>;"></p></li>
+12:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Sidebar Fill:<br/>#<%= capitalize @user['profile_sidebar_fill_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_sidebar_fill_color'] %>;"></p></li>
+13:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Sidebar Border:<br/>#<%= capitalize @user['profile_sidebar_border_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_sidebar_border_color'] %>;"></p></li>
+14:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Links:<br/>#<%= capitalize @user['profile_link_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_link_color'] %>;"></p></li>
+
+    app/views/colors/_results.html.erb:11
+    app/controllers/colors_controller.rb:8:in `__instance_exec0'
+    app/controllers/colors_controller.rb:7:in `results'
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:50:41) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:50:49) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+
+ActionView::TemplateError (undefined method `capitalize' for #<ActionView::Base:0x2535a50>) on line #11 of app/views/colors/_results.html.erb:
+8: </ul>
+9: 
+10: <ul style="display:inline-block;">
+11:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Background:<br/>#<%= capitalize @user['profile_background_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_background_color'] %>;"></p></li>
+12:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Sidebar Fill:<br/>#<%= capitalize @user['profile_sidebar_fill_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_sidebar_fill_color'] %>;"></p></li>
+13:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Sidebar Border:<br/>#<%= capitalize @user['profile_sidebar_border_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_sidebar_border_color'] %>;"></p></li>
+14:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Links:<br/>#<%= capitalize @user['profile_link_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_link_color'] %>;"></p></li>
+
+    app/views/colors/_results.html.erb:11
+    app/controllers/colors_controller.rb:8:in `__instance_exec0'
+    app/controllers/colors_controller.rb:7:in `results'
+
+Rendered rescues/_trace (53.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:50:51) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+
+ActionView::TemplateError (undefined method `capitalize' for #<ActionView::Base:0x239e73c>) on line #11 of app/views/colors/_results.html.erb:
+8: </ul>
+9: 
+10: <ul style="display:inline-block;">
+11:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Background:<br/>#<%= capitalize @user['profile_background_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_background_color'] %>;"></p></li>
+12:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Sidebar Fill:<br/>#<%= capitalize @user['profile_sidebar_fill_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_sidebar_fill_color'] %>;"></p></li>
+13:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Sidebar Border:<br/>#<%= capitalize @user['profile_sidebar_border_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_sidebar_border_color'] %>;"></p></li>
+14:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Links:<br/>#<%= capitalize @user['profile_link_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_link_color'] %>;"></p></li>
+
+    app/views/colors/_results.html.erb:11
+    app/controllers/colors_controller.rb:8:in `__instance_exec0'
+    app/controllers/colors_controller.rb:7:in `results'
+
+Rendered rescues/_trace (53.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:52:28) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+
+ActionView::TemplateError (undefined method `upcase' for #<ActionView::Base:0x2486a78>) on line #11 of app/views/colors/_results.html.erb:
+8: </ul>
+9: 
+10: <ul style="display:inline-block;">
+11:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Background:<br/>#<%= upcase @user['profile_background_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_background_color'] %>;"></p></li>
+12:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Sidebar Fill:<br/>#<%= upcase @user['profile_sidebar_fill_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_sidebar_fill_color'] %>;"></p></li>
+13:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Sidebar Border:<br/>#<%= upcase @user['profile_sidebar_border_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_sidebar_border_color'] %>;"></p></li>
+14:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Links:<br/>#<%= upcase @user['profile_link_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_link_color'] %>;"></p></li>
+
+    app/views/colors/_results.html.erb:11
+    app/controllers/colors_controller.rb:8:in `__instance_exec0'
+    app/controllers/colors_controller.rb:7:in `results'
+
+Rendered rescues/_trace (109.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 14:52:31) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:52:36) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+
+ActionView::TemplateError (undefined method `upcase' for #<ActionView::Base:0x25692b0>) on line #11 of app/views/colors/_results.html.erb:
+8: </ul>
+9: 
+10: <ul style="display:inline-block;">
+11:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Background:<br/>#<%= upcase @user['profile_background_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_background_color'] %>;"></p></li>
+12:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Sidebar Fill:<br/>#<%= upcase @user['profile_sidebar_fill_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_sidebar_fill_color'] %>;"></p></li>
+13:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Sidebar Border:<br/>#<%= upcase @user['profile_sidebar_border_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_sidebar_border_color'] %>;"></p></li>
+14:   <li style="display:inline-block; margin:1em;"><p style="text-align:center;">Links:<br/>#<%= upcase @user['profile_link_color'] %></p><p style="width:175px; height:175px; background-color:#<%= @user['profile_link_color'] %>;"></p></li>
+
+    app/views/colors/_results.html.erb:11
+    app/controllers/colors_controller.rb:8:in `__instance_exec0'
+    app/controllers/colors_controller.rb:7:in `results'
+
+Rendered rescues/_trace (53.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 14:59:34) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (2.6ms)
+Completed in 293ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:00:03) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 15:00:12) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"simplebits", "_"=>""}
+Rendered colors/_results (2.6ms)
+Completed in 317ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 15:00:30) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.6ms)
+Completed in 205ms (View: 3, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:02:19) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 15:02:23) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (2.7ms)
+Completed in 336ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:11:26) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 15:11:28) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.4ms)
+Completed in 324ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:14:13) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:17:03) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:21:38) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:23:20) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:30:01) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:46:57) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:48:45) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:51:59) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 15:52:15) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 344ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:52:31) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 52ms (View: 50, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 15:52:34) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 200ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#results (for 127.0.0.1 at 2009-07-18 15:53:14) [POST]
+  Parameters: {"commit"=>"Color Me!", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (2.7ms)
+Completed in 259ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/results]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:57:34) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:57:50) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:58:00) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:58:23) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 48ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:59:39) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 15:59:55) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:00:24) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:02:05) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:02:13) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:02:39) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:03:19) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:06:38) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:06:49) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:07:21) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:07:27) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:07:44) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:08:42) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:08:44) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:09:00) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:11:17) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:11:40) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:11:46) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:12:27) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:13:16) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:13:48) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:15:09) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:15:35) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:15:54) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:16:18) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:16:19) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:17:44) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:17:58) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 48ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:19:48) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:19:58) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:20:21) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:20:37) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:20:46) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:21:11) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:22:43) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:23:03) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:23:05) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:24:08) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:24:11) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:25:20) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:26:21) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:26:54) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:27:15) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:27:49) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:28:22) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-18 16:42:20) [GET]
+
+SyntaxError (/Users/eh/code/colorthing/app/controllers/colors_controller.rb:18: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (33.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:42:38) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 16:42:42) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"FxPySt0qihHewd2NkxfGL1wKUN46Wzk0CLvekvxKn+s=", "username"=>""}
+
+Crack::ParseError (Invalid JSON string):
+  crack (0.1.3) lib/crack/json.rb:14:in `parse'
+  httparty (0.4.3) lib/httparty/request.rb:112:in `parse_response'
+  httparty (0.4.3) lib/httparty/request.rb:101:in `handle_response'
+  httparty (0.4.3) lib/httparty/request.rb:40:in `perform'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  httparty (0.4.3) lib/httparty.rb:185:in `get'
+  twitter (0.6.12) lib/twitter.rb:38:in `user'
+  app/controllers/colors_controller.rb:7:in `create'
+
+Rendered rescues/_trace (42.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 16:43:53) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"FxPySt0qihHewd2NkxfGL1wKUN46Wzk0CLvekvxKn+s=", "username"=>"@eh"}
+Rendering template within layouts/application
+Rendering colors/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.count) on line #1 of app/views/colors/index.html.erb:
+1: <% if @user && @user.errors.count > 0 %>
+2:   <ul>
+3:     <% @user.errors.each do |user| %>
+4:       <li><%= user.error %></li>
+
+    app/views/colors/index.html.erb:1
+    app/controllers/colors_controller.rb:15:in `create'
+
+Rendered rescues/_trace (44.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 16:43:55) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"FxPySt0qihHewd2NkxfGL1wKUN46Wzk0CLvekvxKn+s=", "username"=>"@eh"}
+Rendering template within layouts/application
+Rendering colors/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.count) on line #1 of app/views/colors/index.html.erb:
+1: <% if @user && @user.errors.count > 0 %>
+2:   <ul>
+3:     <% @user.errors.each do |user| %>
+4:       <li><%= user.error %></li>
+
+    app/views/colors/index.html.erb:1
+    app/controllers/colors_controller.rb:15:in `create'
+
+Rendered rescues/_trace (43.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:53:12) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:53:20) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:53:26) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 16:53:31) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Completed in 302ms (View: 1, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:54:28) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 16:54:31) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Completed in 357ms (View: 1, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:55:08) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 16:55:11) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (2.9ms)
+Completed in 273ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 16:55:17) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+
+Crack::ParseError (Invalid JSON string):
+  crack (0.1.3) lib/crack/json.rb:14:in `parse'
+  httparty (0.4.3) lib/httparty/request.rb:112:in `parse_response'
+  httparty (0.4.3) lib/httparty/request.rb:101:in `handle_response'
+  httparty (0.4.3) lib/httparty/request.rb:40:in `perform'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  httparty (0.4.3) lib/httparty.rb:185:in `get'
+  twitter (0.6.12) lib/twitter.rb:38:in `user'
+  app/controllers/colors_controller.rb:7:in `create'
+
+Rendered rescues/_trace (45.1ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:55:51) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 16:55:54) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+
+Crack::ParseError (Invalid JSON string):
+  crack (0.1.3) lib/crack/json.rb:14:in `parse'
+  httparty (0.4.3) lib/httparty/request.rb:112:in `parse_response'
+  httparty (0.4.3) lib/httparty/request.rb:101:in `handle_response'
+  httparty (0.4.3) lib/httparty/request.rb:40:in `perform'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  httparty (0.4.3) lib/httparty.rb:185:in `get'
+  twitter (0.6.12) lib/twitter.rb:38:in `user'
+  app/controllers/colors_controller.rb:7:in `create'
+
+Rendered rescues/_trace (90.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:56:57) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 16:57:01) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"@eh", "_"=>""}
+
+ActionView::TemplateError (can't convert nil into String) on line #3 of app/views/colors/_results.html.erb:
+1: <h3>Those are some nice colors!</h3>
+2: <ul style="display:inline-block; margin-bottom: 1em;">
+3:   <li style="display:inline-block; margin: 0 1em 1em 0;"><%= link_to image_tag(@user['profile_image_url']), "http://www.twitter.com/#{@user['screen_name']}", :alt => "#{@user['name']} on Twitter", :title => "#{@user['name']} on Twitter" %></li>
+4:   <li style="display:inline-block">
+5:     <p><%= @user['name'] %> (<%= link_to @user['screen_name'], "http://www.twitter.com/#{@user['screen_name']}", :alt => "http://www.twitter.com/#{@user['screen_name']}", :title => "http://www.twitter.com/#{@user['screen_name']}" %>)</p>
+6:     <p>Recent tweet: <%= @user['status']['text'] %></p>
+
+    app/views/colors/_results.html.erb:3
+    app/controllers/colors_controller.rb:11:in `__instance_exec0'
+    app/controllers/colors_controller.rb:10:in `create'
+
+Rendered rescues/_trace (58.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 16:57:45) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 60ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 16:57:48) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+
+Crack::ParseError (Invalid JSON string):
+  crack (0.1.3) lib/crack/json.rb:14:in `parse'
+  httparty (0.4.3) lib/httparty/request.rb:112:in `parse_response'
+  httparty (0.4.3) lib/httparty/request.rb:101:in `handle_response'
+  httparty (0.4.3) lib/httparty/request.rb:40:in `perform'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  httparty (0.4.3) lib/httparty.rb:185:in `get'
+  twitter (0.6.12) lib/twitter.rb:38:in `user'
+  app/controllers/colors_controller.rb:7:in `create'
+
+Rendered rescues/_trace (46.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:01:39) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:02:34) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:02:36) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+
+Crack::ParseError (Invalid JSON string):
+  crack (0.1.3) lib/crack/json.rb:14:in `parse'
+  httparty (0.4.3) lib/httparty/request.rb:112:in `parse_response'
+  httparty (0.4.3) lib/httparty/request.rb:101:in `handle_response'
+  httparty (0.4.3) lib/httparty/request.rb:40:in `perform'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  httparty (0.4.3) lib/httparty.rb:185:in `get'
+  twitter (0.6.12) lib/twitter.rb:38:in `user'
+  app/controllers/colors_controller.rb:7:in `create'
+
+Rendered rescues/_trace (91.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:03:52) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:04:10) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+
+Crack::ParseError (Invalid JSON string):
+  crack (0.1.3) lib/crack/json.rb:14:in `parse'
+  httparty (0.4.3) lib/httparty/request.rb:112:in `parse_response'
+  httparty (0.4.3) lib/httparty/request.rb:101:in `handle_response'
+  httparty (0.4.3) lib/httparty/request.rb:40:in `perform'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  httparty (0.4.3) lib/httparty.rb:185:in `get'
+  twitter (0.6.12) lib/twitter.rb:38:in `user'
+  app/controllers/colors_controller.rb:7:in `create'
+
+Rendered rescues/_trace (42.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:04:17) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:04:21) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+
+Crack::ParseError (Invalid JSON string):
+  crack (0.1.3) lib/crack/json.rb:14:in `parse'
+  httparty (0.4.3) lib/httparty/request.rb:112:in `parse_response'
+  httparty (0.4.3) lib/httparty/request.rb:101:in `handle_response'
+  httparty (0.4.3) lib/httparty/request.rb:40:in `perform'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  httparty (0.4.3) lib/httparty.rb:185:in `get'
+  twitter (0.6.12) lib/twitter.rb:38:in `user'
+  app/controllers/colors_controller.rb:7:in `create'
+
+Rendered rescues/_trace (95.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:05:36) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:05:40) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"FxPySt0qihHewd2NkxfGL1wKUN46Wzk0CLvekvxKn+s=", "username"=>"eh"}
+Rendered colors/_results (0.4ms)
+Completed in 262ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:05:56) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:06:54) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:06:57) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (2.6ms)
+Completed in 298ms (View: 6, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:07:05) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:07:38) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"hippaviolation", "_"=>""}
+
+ActionView::TemplateError (can't convert nil into String) on line #2 of app/views/colors/_results.html.erb:
+1: <ul style="display:inline-block; margin-bottom: 1em;">
+2:   <li style="display:inline-block; margin: 0 1em 1em 0;"><%= link_to image_tag(@user['profile_image_url']), "http://www.twitter.com/#{@user['screen_name']}", :alt => "#{@user['name']} on Twitter", :title => "#{@user['name']} on Twitter" %></li>
+3:   <li style="display:inline-block">
+4:     <p><%= @user['name'] %> (<%= link_to @user['screen_name'], "http://www.twitter.com/#{@user['screen_name']}", :alt => "http://www.twitter.com/#{@user['screen_name']}", :title => "http://www.twitter.com/#{@user['screen_name']}" %>)</p>
+5:     <p>Recent tweet: <%= @user['status']['text'] %></p>
+
+    app/views/colors/_results.html.erb:2
+    app/controllers/colors_controller.rb:11:in `__instance_exec0'
+    app/controllers/colors_controller.rb:10:in `create'
+
+Rendered rescues/_trace (108.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:07:46) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"hipaaviolation", "_"=>""}
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/colors/_results.html.erb:
+2:   <li style="display:inline-block; margin: 0 1em 1em 0;"><%= link_to image_tag(@user['profile_image_url']), "http://www.twitter.com/#{@user['screen_name']}", :alt => "#{@user['name']} on Twitter", :title => "#{@user['name']} on Twitter" %></li>
+3:   <li style="display:inline-block">
+4:     <p><%= @user['name'] %> (<%= link_to @user['screen_name'], "http://www.twitter.com/#{@user['screen_name']}", :alt => "http://www.twitter.com/#{@user['screen_name']}", :title => "http://www.twitter.com/#{@user['screen_name']}" %>)</p>
+5:     <p>Recent tweet: <%= @user['status']['text'] %></p>
+6:   </li>
+7: </ul>
+8: 
+
+    app/views/colors/_results.html.erb:5
+    app/controllers/colors_controller.rb:11:in `__instance_exec0'
+    app/controllers/colors_controller.rb:10:in `create'
+
+Rendered rescues/_trace (52.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:07:49) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"hipaaviolation", "_"=>""}
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/colors/_results.html.erb:
+2:   <li style="display:inline-block; margin: 0 1em 1em 0;"><%= link_to image_tag(@user['profile_image_url']), "http://www.twitter.com/#{@user['screen_name']}", :alt => "#{@user['name']} on Twitter", :title => "#{@user['name']} on Twitter" %></li>
+3:   <li style="display:inline-block">
+4:     <p><%= @user['name'] %> (<%= link_to @user['screen_name'], "http://www.twitter.com/#{@user['screen_name']}", :alt => "http://www.twitter.com/#{@user['screen_name']}", :title => "http://www.twitter.com/#{@user['screen_name']}" %>)</p>
+5:     <p>Recent tweet: <%= @user['status']['text'] %></p>
+6:   </li>
+7: </ul>
+8: 
+
+    app/views/colors/_results.html.erb:5
+    app/controllers/colors_controller.rb:11:in `__instance_exec0'
+    app/controllers/colors_controller.rb:10:in `create'
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:07:59) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.4ms)
+Completed in 270ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:08:45) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"monajane", "_"=>""}
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/colors/_results.html.erb:
+2:   <li style="display:inline-block; margin: 0 1em 1em 0;"><%= link_to image_tag(@user['profile_image_url']), "http://www.twitter.com/#{@user['screen_name']}", :alt => "#{@user['name']} on Twitter", :title => "#{@user['name']} on Twitter" %></li>
+3:   <li style="display:inline-block">
+4:     <p><%= @user['name'] %> (<%= link_to @user['screen_name'], "http://www.twitter.com/#{@user['screen_name']}", :alt => "http://www.twitter.com/#{@user['screen_name']}", :title => "http://www.twitter.com/#{@user['screen_name']}" %>)</p>
+5:     <p>Recent tweet: <%= @user['status']['text'] %></p>
+6:   </li>
+7: </ul>
+8: 
+
+    app/views/colors/_results.html.erb:5
+    app/controllers/colors_controller.rb:11:in `__instance_exec0'
+    app/controllers/colors_controller.rb:10:in `create'
+
+Rendered rescues/_trace (52.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:12:42) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:12:45) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"monajane", "_"=>""}
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/colors/_results.html.erb:
+2:   <li style="display:inline-block; margin: 0 1em 1em 0;"><%= link_to image_tag(@user['profile_image_url']), "http://www.twitter.com/#{@user['screen_name']}", :alt => "#{@user['name']} on Twitter", :title => "#{@user['name']} on Twitter" %></li>
+3:   <li style="display:inline-block">
+4:     <p><%= @user['name'] %> (<%= link_to @user['screen_name'], "http://www.twitter.com/#{@user['screen_name']}", :alt => "http://www.twitter.com/#{@user['screen_name']}", :title => "http://www.twitter.com/#{@user['screen_name']}" %>)</p>
+5:     <p><% if @user['status']['text'] %>
+6:         Recent tweet: <%= @user['status']['text'] %>
+7:        <% else %>
+8:         Private account
+
+    app/views/colors/_results.html.erb:5
+    app/controllers/colors_controller.rb:11:in `__instance_exec0'
+    app/controllers/colors_controller.rb:10:in `create'
+
+Rendered rescues/_trace (52.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:13:11) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"monajane", "_"=>""}
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/colors/_results.html.erb:
+2:   <li style="display:inline-block; margin: 0 1em 1em 0;"><%= link_to image_tag(@user['profile_image_url']), "http://www.twitter.com/#{@user['screen_name']}", :alt => "#{@user['name']} on Twitter", :title => "#{@user['name']} on Twitter" %></li>
+3:   <li style="display:inline-block">
+4:     <p><%= @user['name'] %> (<%= link_to @user['screen_name'], "http://www.twitter.com/#{@user['screen_name']}", :alt => "http://www.twitter.com/#{@user['screen_name']}", :title => "http://www.twitter.com/#{@user['screen_name']}" %>)</p>
+5:     <p><% if @user['status']['text'] %>
+6:         Recent tweet: <%= @user['status']['text'] %>
+7:        <% else %>
+8:         Private account
+
+    app/views/colors/_results.html.erb:5
+    app/controllers/colors_controller.rb:11:in `__instance_exec0'
+    app/controllers/colors_controller.rb:10:in `create'
+
+Rendered rescues/_trace (109.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:14:54) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:14:57) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"monajane", "_"=>""}
+Rendered colors/_results (2.9ms)
+Completed in 320ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:15:09) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"hipaaviolation", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 7514ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:15:17) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"hipaaviolation", "_"=>""}
+Rendered colors/_results (0.4ms)
+Completed in 444ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:16:00) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"danbenjamin", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 283ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:16:11) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"noradio", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 256ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:16:30) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 242ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:17:37) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:17:41) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"FxPySt0qihHewd2NkxfGL1wKUN46Wzk0CLvekvxKn+s=", "username"=>"monajane"}
+Rendered colors/_results (2.9ms)
+Completed in 400ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:17:51) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"FxPySt0qihHewd2NkxfGL1wKUN46Wzk0CLvekvxKn+s=", "username"=>"zeldman"}
+Rendered colors/_results (0.5ms)
+Completed in 237ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:19:55) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:20:53) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:21:05) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"danbenjamin", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 325ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:21:19) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"danbenjamin", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 261ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:22:47) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:25:31) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:25:55) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:26:18) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"danbenjamin", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 274ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:26:30) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:26:49) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:28:05) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:37:49) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:37:52) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (2.3ms)
+Completed in 295ms (View: 6, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:38:40) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:38:43) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (2.6ms)
+Completed in 304ms (View: 7, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:39:17) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:39:20) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (2.4ms)
+Completed in 370ms (View: 6, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:39:27) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"monajane", "_"=>""}
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.nil) on line #5 of app/views/colors/_results.html.erb:
+2:   <li id="avatar"><%= link_to image_tag(@user['profile_image_url']), "http://www.twitter.com/#{@user['screen_name']}", :alt => "#{@user['name']} on Twitter", :title => "#{@user['name']} on Twitter" %></li>
+3:   <li>
+4:     <p><%= @user['name'] %> (<%= link_to @user['screen_name'], "http://www.twitter.com/#{@user['screen_name']}", :alt => "http://www.twitter.com/#{@user['screen_name']}", :title => "http://www.twitter.com/#{@user['screen_name']}" %>)</p>
+5:     <p><%= @user['status'].nil ? "Private account" : "Recent tweet: #{@user['status']['text']}" %></p>
+6:   </li>
+7: </ul>
+8: 
+
+    app/views/colors/_results.html.erb:5
+    app/controllers/colors_controller.rb:11:in `__instance_exec0'
+    app/controllers/colors_controller.rb:10:in `create'
+
+Rendered rescues/_trace (52.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:40:02) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:40:05) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"monajane", "_"=>""}
+Rendered colors/_results (2.4ms)
+Completed in 270ms (View: 6, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:40:17) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.4ms)
+Completed in 215ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:41:01) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:45:54) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:46:00) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"FxPySt0qihHewd2NkxfGL1wKUN46Wzk0CLvekvxKn+s=", "username"=>"zeldman"}
+Rendered colors/_results (0.5ms)
+Completed in 269ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:46:39) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:47:19) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"badbanana", "_"=>""}
+Rendered colors/_results (0.4ms)
+Completed in 283ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:48:50) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:49:03) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+
+Crack::ParseError (Invalid JSON string):
+  crack (0.1.3) lib/crack/json.rb:14:in `parse'
+  httparty (0.4.3) lib/httparty/request.rb:112:in `parse_response'
+  httparty (0.4.3) lib/httparty/request.rb:101:in `handle_response'
+  httparty (0.4.3) lib/httparty/request.rb:40:in `perform'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  httparty (0.4.3) lib/httparty.rb:185:in `get'
+  twitter (0.6.12) lib/twitter.rb:38:in `user'
+  app/controllers/colors_controller.rb:7:in `create'
+
+Rendered rescues/_trace (40.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:50:22) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:50:25) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+
+Crack::ParseError (Invalid JSON string):
+  crack (0.1.3) lib/crack/json.rb:14:in `parse'
+  httparty (0.4.3) lib/httparty/request.rb:112:in `parse_response'
+  httparty (0.4.3) lib/httparty/request.rb:101:in `handle_response'
+  httparty (0.4.3) lib/httparty/request.rb:40:in `perform'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  httparty (0.4.3) lib/httparty.rb:185:in `get'
+  twitter (0.6.12) lib/twitter.rb:38:in `user'
+  app/controllers/colors_controller.rb:7:in `create'
+
+Rendered rescues/_trace (40.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:50:28) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 277ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:51:31) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:51:37) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:51:48) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+
+Crack::ParseError (Invalid JSON string):
+  crack (0.1.3) lib/crack/json.rb:14:in `parse'
+  httparty (0.4.3) lib/httparty/request.rb:112:in `parse_response'
+  httparty (0.4.3) lib/httparty/request.rb:101:in `handle_response'
+  httparty (0.4.3) lib/httparty/request.rb:40:in `perform'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  httparty (0.4.3) lib/httparty.rb:185:in `get'
+  twitter (0.6.12) lib/twitter.rb:38:in `user'
+  app/controllers/colors_controller.rb:7:in `create'
+
+Rendered rescues/_trace (91.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 17:56:59) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 17:57:01) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+
+Crack::ParseError (Invalid JSON string):
+  crack (0.1.3) lib/crack/json.rb:14:in `parse'
+  httparty (0.4.3) lib/httparty/request.rb:112:in `parse_response'
+  httparty (0.4.3) lib/httparty/request.rb:101:in `handle_response'
+  httparty (0.4.3) lib/httparty/request.rb:40:in `perform'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  httparty (0.4.3) lib/httparty.rb:185:in `get'
+  twitter (0.6.12) lib/twitter.rb:38:in `user'
+  app/controllers/colors_controller.rb:7:in `create'
+
+Rendered rescues/_trace (40.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:03:37) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:04:56) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:04:59) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"@eh", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 264ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:11:42) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 56ms (View: 54, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:11:44) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:11:49) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:12:14) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:12:16) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:12:27) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:12:36) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:12:37) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:12:44) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:12:47) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"@monajane", "_"=>""}
+Rendered colors/_results (0.4ms)
+Completed in 285ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:12:52) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:13:20) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:13:35) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"@eh", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 279ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:13:53) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"monajane", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 241ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:14:19) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:23:06) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:23:08) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:45:28) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:45:29) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:45:34) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh ", "_"=>""}
+
+URI::InvalidURIError (bad URI(is not URI?): http://twitter.com/users/show/eh .json):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/uri/common.rb:436:in `split'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  httparty (0.4.3) lib/httparty/request.rb:19:in `path='
+  httparty (0.4.3) lib/httparty/request.rb:11:in `initialize'
+  httparty (0.4.3) lib/httparty.rb:156:in `new'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  httparty (0.4.3) lib/httparty.rb:185:in `get'
+  twitter (0.6.12) lib/twitter.rb:38:in `user'
+  app/controllers/colors_controller.rb:10:in `create'
+
+Rendered rescues/_trace (89.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:45:36) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh ", "_"=>""}
+
+URI::InvalidURIError (bad URI(is not URI?): http://twitter.com/users/show/eh .json):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/uri/common.rb:436:in `split'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  httparty (0.4.3) lib/httparty/request.rb:19:in `path='
+  httparty (0.4.3) lib/httparty/request.rb:11:in `initialize'
+  httparty (0.4.3) lib/httparty.rb:156:in `new'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  httparty (0.4.3) lib/httparty.rb:185:in `get'
+  twitter (0.6.12) lib/twitter.rb:38:in `user'
+  app/controllers/colors_controller.rb:10:in `create'
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:46:16) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh ", "_"=>""}
+
+URI::InvalidURIError (bad URI(is not URI?): http://twitter.com/users/show/eh .json):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/uri/common.rb:436:in `split'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  httparty (0.4.3) lib/httparty/request.rb:19:in `path='
+  httparty (0.4.3) lib/httparty/request.rb:11:in `initialize'
+  httparty (0.4.3) lib/httparty.rb:156:in `new'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  httparty (0.4.3) lib/httparty.rb:185:in `get'
+  twitter (0.6.12) lib/twitter.rb:38:in `user'
+  app/controllers/colors_controller.rb:10:in `create'
+
+Rendered rescues/_trace (40.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:46:19) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:46:22) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 287ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:46:30) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"@zeldman", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 212ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:46:38) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:46:45) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:55:09) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:55:11) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:55:15) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 362ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:55:36) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:55:37) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:55:40) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 219ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:56:13) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:56:14) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+Completed in 50ms (View: 1, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:56:17) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 315ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:56:37) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:56:38) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:56:41) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.4ms)
+Completed in 218ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:57:23) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:57:24) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 18:57:29) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.4ms)
+Completed in 302ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 18:59:57) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 19:00:01) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"eh", "_"=>""}
+Rendered colors/_results (0.5ms)
+Completed in 509ms (View: 77, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 19:00:23) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-07-18 19:00:27) [POST]
+  Parameters: {"commit"=>"Do it", "authenticity_token"=>"yc/ZR9rJ5PGPVjRZ6s1lgdwowqpacI8jRr0jgxacTwA=", "username"=>"monajane", "_"=>""}
+Rendered colors/_results (0.4ms)
+Completed in 311ms (View: 2, DB: 0) | 200 OK [http://localhost/colors/create]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:01:10) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 52ms (View: 51, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:01:14) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:03:34) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:03:39) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:04:19) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:04:29) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:04:39) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:04:51) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:05:01) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:05:13) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:05:18) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:05:23) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:06:26) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:06:30) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:11:42) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Rendered shared/_header (0.4ms)
+Rendered shared/_footer (0.9ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:11:54) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.9ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:12:07) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.3ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:12:15) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.4ms)
+Completed in 49ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:12:24) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.3ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:12:43) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.3ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-07-18 19:18:51) [GET]
+Rendering template within layouts/application
+Rendering colors/index
+Rendered shared/_header (0.5ms)
+Rendered shared/_footer (0.9ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/]

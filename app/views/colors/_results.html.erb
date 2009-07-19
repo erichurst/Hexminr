@@ -1,0 +1,17 @@
+<ul id="user_vitals">
+  <li id="avatar"><%= link_to image_tag(@user['profile_image_url']), "http://www.twitter.com/#{@user['screen_name']}", :alt => "#{@user['name']} on Twitter", :title => "#{@user['name']} on Twitter" %></li>
+  <li>
+    <p><%= @user['name'] %> (<%= link_to @user['screen_name'], "http://www.twitter.com/#{@user['screen_name']}", :alt => "http://www.twitter.com/#{@user['screen_name']}", :title => "http://www.twitter.com/#{@user['screen_name']}" %>)</p>
+    <p><%= @user['status'] == nil ? "Private account" : "Recent tweet: #{@user['status']['text']}" %></p>
+  </li>
+</ul>
+
+<h3>Those are some nice colors!</h3>
+
+<ul id="colors">
+  <li><p>Background:<br/>#<%= @user['profile_background_color'].upcase %></p><p class="swatch" style="background-color:#<%= @user['profile_background_color'] %>;"></p></li>
+  <li><p>Sidebar Fill:<br/>#<%= @user['profile_sidebar_fill_color'].upcase %></p><p class="swatch" style="background-color:#<%= @user['profile_sidebar_fill_color'] %>;"></p></li>
+  <li><p>Sidebar Border:<br/>#<%= @user['profile_sidebar_border_color'].upcase %></p><p class="swatch" style="background-color:#<%= @user['profile_sidebar_border_color'] %>;"></p></li>
+  <li><p>Links:<br/>#<%= @user['profile_link_color'].upcase %></p><p class="swatch" style="background-color:#<%= @user['profile_link_color'] %>;"></p></li>
+  <li><p>Text:<br/>#<%= @user['profile_text_color'].upcase %></p><p class="swatch" style="background-color:#<%= @user['profile_text_color'] %>;"></p></li>
+</ul>

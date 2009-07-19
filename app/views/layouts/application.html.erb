@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>Hexminr - Twitter Color Scheme Finder</title>
+  <%= javascript_include_tag :defaults, :cache => true %>
+  <!-- YUI CSS -->
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset/reset-min.css"> 
+  <%= stylesheet_link_tag "hexminr" %>
+</head>
+<body>
+  <div id="container">  
+    <%= render :partial => 'shared/header' %>
+    
+    <div id="content">
+      <%= yield %>
+    </div>
+    
+    <%= render :partial => 'shared/footer' %>
+  </div>
+</body>
+</html>
