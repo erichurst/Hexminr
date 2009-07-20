@@ -3,6 +3,35 @@ body {
   font: 18px Helvetica, Arial, sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+  margin-left: -2px;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+h2 {
+  font-size: 225%;
+}
+
+h3 {
+  font-size: 175%;
+}
+
+h4 {
+  font-size: 150%;
+}
+
+h5 {
+  font-size: 125%;
+}
+
+h6 {
+  font-size: 100%;
+}
+
 a, a:link, a:hover {
   color: #090;
   text-decoration: none;
@@ -29,10 +58,6 @@ a:hover {
   text-align: center;
   padding: 1em;
   margin: 0 0 1em 0;
-}
-
-h3 {
-  font-size: 150%;
 }
 
 #container {
