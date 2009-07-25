@@ -1,8 +1,9 @@
 require "twitter"
 class ColorsController < ApplicationController
+  
   def index
   end
-
+  
   def create
     username = params[:username].gsub('@','').to_s
     
