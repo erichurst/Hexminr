@@ -17,6 +17,7 @@ h2 {
 }
 
 h3 {
+  color: #0096FD;
   font-size: 175%;
 }
 
@@ -49,6 +50,8 @@ a:hover {
 #footer {
   font-size: 13px;
   color: #999;
+  padding-top: 2.5em;
+  border-top: 1px solid #D9D9D9;
 }
 
 #fat_finger {
@@ -69,27 +72,37 @@ a:hover {
   margin: 2em 0;
 }
 
-ul#user_vitals, ul#user_vitals li#avatar, ul#user_vitals li, ul#colors, ul#colors li {
+.result {
+  padding-top: 1.35em;
+  margin-bottom: 0.75em;
+  border-top: 1px solid #D9D9D9;
+}
+
+ul.user_vitals, ul.user_vitals li.avatar, ul.user_vitals li, ul.colors, ul.colors li {
   display:inline-block;
 }
 
-ul#user_vitals {
+ul.user_vitals {
   margin-bottom: 1em;
 }
 
-ul#user_vitals li#avatar {
+ul.user_vitals li.avatar {
   margin: 0 0.5em 0.5em 0;
 }
 
-ul#colors li {
+ul.colors li {
   margin: 1em;
 }
 
-ul#colors li p {
+ul.colors li p {
   text-align:center;
 }
 
-ul#colors li p.swatch {
+ul.colors li p.swatch {
   width:150px;
   height: 150px;
+}
+
+#loading {
+  text-align: center;
 }
