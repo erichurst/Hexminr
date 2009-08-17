@@ -1,8 +1,6 @@
 <% form_remote_tag :url => {:controller => "colors", :action => "create"}, :html => {:id => "entry_form"} do -%>
   <strong><%= label_tag :usernames, "Submit Twitter usernames &amp; get their color schemes back:" %></strong> <%= text_field_tag :usernames %> <%= submit_tag "Do it" %><br/>
-  <span style="color: #bbb; font-style: italic; font-size: 70%; position:relative; left:469px;">(e.g. eh hexminr rails)</span>
+  <span id="example">(e.g. eh hexminr rails)</span>
 <% end -%>
 
 <div id="results"></div>
-
-<span id="oneforty.i.1150"></span>

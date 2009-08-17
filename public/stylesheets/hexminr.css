@@ -62,6 +62,13 @@ a:hover {
   text-align: center;
   padding: 1em;
   margin: 0 0 1em 0;
+  border-right: 7px solid #AAA;
+  border-bottom: 7px solid #AAA;
+  border-left: 7px solid #AAA;
+  -moz-border-radius-bottomright: 35px;
+  -moz-border-radius-bottomleft: 35px;
+  -webkit-border-bottom-left-radius: 35px;  
+  -webkit-border-bottom-right-radius: 35px;  
 }
 
 #container {
@@ -71,6 +78,14 @@ a:hover {
 
 #results {
   margin: 2em 0;
+}
+
+span#example {
+  color: #bbb;
+  font-style: italic;
+  font-size: 70%;
+  position: relative;
+  left: 469px;
 }
 
 .result {
@@ -96,11 +111,11 @@ ul.colors li {
 }
 
 ul.colors li p {
-  text-align:center;
+  text-align: center;
 }
 
 ul.colors li p.swatch {
-  width:150px;
+  width: 150px;
   height: 150px;
 }
 
